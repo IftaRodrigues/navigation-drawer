@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/araguaina" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/araguatins" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/colinas" />
+        <item
+            android:id="@+id/dianopolis"
+            android:title="@string/dianopolis" />
+        <item
+            android:id="@+id/formoso"
+            android:title="@string/formoso" />
+        <item
+            android:id="@+id/gurupi"
+            android:title="@string/gurupi" />
+        <item
+            android:id="@+id/lagoa"
+            android:title="@string/lagoa" />
+        <item
+            android:id="@+id/palmas"
+            android:title="@string/palmas" />
+        <item
+            android:id="@+id/paraiso"
+            android:title="@string/paraiso" />
+        <item
+            android:id="@+id/pedroAfonso"
+            android:title="@string/pedroAfonso" />
+        <item
+            android:id="@+id/porto"
+            android:title="@string/porto" />
+        <item
+            android:id="@+id/reitoria"
+            android:title="@string/reitoria" />
+    </group>
+</menu>

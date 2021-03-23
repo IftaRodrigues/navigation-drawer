@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">atividade1803</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="instituto">INSTITUTO FEDERAL DO TOCANTINS</string>
+    <string name="araguaina">Campus Araguaína</string>
+    <string name="araguatins">Campus Araguatins</string>
+    <string name="colinas">Campus Colinas do Tocantins</string>
+    <string name="dianopolis">Campus Dianópolis</string>
+    <string name="formoso">Campus Formoso do Araguaia</string>
+    <string name="gurupi">Campus Gurupi</string>
+    <string name="lagoa">Campus Lagoa da Cofusão</string>
+    <string name="palmas">Campus Palmas</string>
+    <string name="paraiso">Campus Paraíso do Tocantins</string>
+    <string name="pedroAfonso">Campus Pedro Afonso</string>
+    <string name="porto">Campus Porto Nacional</string>
+    <string name="reitoria">Reitoria</string>
+</resources>
