@@ -8,18 +8,74 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.ifta.atividade1803.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/araguaina"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.ifta.atividade1803.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/araguatins"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.ifta.atividade1803.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/colinas"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/dianopolis"
+        android:name="com.ifta.atividade1803.ui.dianopolis.DianopolisFagment"
+        android:label="@string/dianopolis"
+        tools:layout="@layout/fragment_dianopolis" />
+
+    <fragment
+        android:id="@+id/formoso"
+        android:name="com.ifta.atividade1803.ui.formoso.FormosoFagment"
+        android:label="@string/formoso"
+        tools:layout="@layout/fragment_formoso" />
+
+    <fragment
+        android:id="@+id/gurupi"
+        android:name="com.ifta.atividade1803.ui.gurupi.GurupiFagment"
+        android:label="@string/gurupi"
+        tools:layout="@layout/fragment_gurupi" />
+
+    <fragment
+        android:id="@+id/lagoa"
+        android:name="com.ifta.atividade1803.ui.lagoa.LagoaFagment"
+        android:label="@string/lagoa"
+        tools:layout="@layout/fragment_lagoa" />
+
+    <fragment
+        android:id="@+id/palmas"
+        android:name="com.ifta.atividade1803.ui.palmas.PalmasFagment"
+        android:label="@string/palmas"
+        tools:layout="@layout/fragment_palmas" />
+
+    <fragment
+        android:id="@+id/paraiso"
+        android:name="com.ifta.atividade1803.ui.paraiso.ParaisoFagment"
+        android:label="@string/paraiso"
+        tools:layout="@layout/fragment_paraiso" />
+
+    <fragment
+        android:id="@+id/pedroAfonso"
+        android:name="com.ifta.atividade1803.ui.pedroAfonso.PedroAfonsoFagment"
+        android:label="@string/pedroAfonso"
+        tools:layout="@layout/fragment_pedroafonso" />
+
+    <fragment
+        android:id="@+id/porto"
+        android:name="com.ifta.atividade1803.ui.porto.PortoFagment"
+        android:label="@string/porto"
+        tools:layout="@layout/fragment_porto" />
+
+    <fragment
+        android:id="@+id/reitoria"
+        android:name="com.ifta.atividade1803.ui.reitoria.ReitoriaFagment"
+        android:label="@string/reitoria"
+        tools:layout="@layout/fragment_reitoria" />
+
+
 </navigation>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".ui.formoso.FormosoFagment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:src="@drawable/formoso"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/text_cursos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cursos_ofertados"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_fic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fic"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="@string/fic_qualificacao"/>
+
+        <TextView
+            android:id="@+id/text_extensao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/extensao"/>
+
+        <TextView
+            android:id="@+id/text_auxiliar_em_orientacao_educacional"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auxiliar_em_orientacao_educacional"/>
+
+        <TextView
+            android:id="@+id/text_contador_de_historias"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contador_de_historias"/>
+        <TextView
+            android:id="@+id/text_normalizacao_de_trabalhos_academicos"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/normalizacao_de_trabalhos_academicos"/>
+
+        <TextView
+            android:id="@+id/text_principios_e_aplicacoes_da_agroecologia"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/principios_e_aplicacoes_da_agroecologia"/>
+
+        <TextView
+            android:id="@+id/text_informatica_e_novas_tecnologias"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/informatica_e_novas_tecnologias"/>
+
+        <TextView
+            android:id="@+id/text_introducao_ao_linux"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introducao_ao_linux"/>
+        <TextView
+            android:id="@+id/text_logica_computacional_e_programacao"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logica_computacional_e_programacao"/>
+
+        <TextView
+            android:id="@+id/text_tecnicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tecnicos"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="@string/tecnicos"/>
+
+
+        <TextView
+            android:id="@+id/text_cursos_tecnicos_presenciais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/cursos_tecnicos_presenciais"/>
+
+        <TextView
+            android:id="@+id/text_integrado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/integrado_regular"/>
+
+        <TextView
+            android:id="@+id/text_tecnico_em_agricultura"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_agricultura"/>
+
+        <TextView
+            android:id="@+id/text_técnico_informatica"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_informatica"/>
+
+        <TextView
+            android:id="@+id/text_concomitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/concomitante"/>
+
+        <TextView
+            android:id="@+id/text_tecnico_em_agricultura_concomitante"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_agricultura"/>
+
+        <TextView
+            android:id="@+id/text_técnico_informatica_concomitante"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_informatica"/>
+
+        <TextView
+            android:id="@+id/text_subsequente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/subsequente"/>
+
+        <TextView
+            android:id="@+id/text_tecnico_em_agricultura_subsequente"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_agricultura"/>
+
+        <TextView
+            android:id="@+id/text_técnico_informatica_subsequente"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_informatica"/>
+
+        <TextView
+            android:id="@+id/text_pos_graduacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pos_graduacao"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="@string/pos_graduacao"/>
+
+        <TextView
+            android:id="@+id/text_especializacao_lato_sensu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/especializacao_lato_sensu"/>
+
+        <TextView
+            android:id="@+id/text_ensino_de_ciencias_e_matematica"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ensino_de_ciencias_e_matematica"/>
+
+    </LinearLayout>
+
+</ScrollView>

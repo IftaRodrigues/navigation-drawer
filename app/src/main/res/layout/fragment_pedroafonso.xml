@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".ui.pedroAfonso.PedroAfonsoFagment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:src="@drawable/pedroafonso"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/text_cursos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cursos_ofertados"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_tecnicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tecnicos"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="@string/tecnicos"/>
+
+        <TextView
+            android:id="@+id/text_concomitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/concomitante"/>
+
+        <TextView
+            android:id="@+id/text_tecnico_em_agropecuaria"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_agropecuaria"/>
+
+        <TextView
+            android:id="@+id/text_subsequente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/subsequente"/>
+
+        <TextView
+            android:id="@+id/text_tecnico_em_agropecuaria_subsequente"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_agropecuaria"/>
+        <TextView
+            android:id="@+id/text_tecnico_em_informatica"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnico_em_informatica"/>
+
+        <TextView
+            android:id="@+id/text_bacharelado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:text="@string/bacharelado"/>
+
+        <TextView
+            android:id="@+id/text_engenharia_agronomica"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/engenharia_agronomica"/>
+
+
+    </LinearLayout>
+</ScrollView>

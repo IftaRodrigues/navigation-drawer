@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/menu_lib_lottie"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/lib_lottie"
         app:showAsAction="never" />
 </menu>
